@@ -14,7 +14,7 @@ The cradle holds the sensor securely on a wall while keeping it ventilated and i
 
 ## Status
 
-The design has been physically prototyped. The first print exposed two wrong measurements, both now corrected in the source (see [Development approach](#development-approach)). The exported STL and 3MF files match the current source geometry.
+The design has been physically prototyped. The exported STL and 3MF files match the current source geometry.
 
 ## Design and features
 
@@ -27,7 +27,7 @@ The design has been physically prototyped. The first print exposed two wrong mea
 - Asymmetric side windows for airflow:
   - the rear edge is straight and parallel to the back wall
   - the front edge follows the sensor's tapered front profile
-- Four 3.0 mm drainage holes through the bottom floor
+- Four 3.0 mm drain holes through the bottom floor
 - Two wall-mount screw locations, counterbored from the front
 
 ### Sensor (as measured)
@@ -97,11 +97,6 @@ The cradle is a parametric OpenSCAD model, developed through an iterative design
 4. Geometry was checked repeatedly with targeted boolean and probe tests.
 5. Physical prototype prints were used to correct the real measurements.
 6. The final STL and 3MF exports were verified against the current source geometry.
-
-The first printed prototype exposed two wrong measurements:
-
-- Sensor height: corrected from 88 mm to **80 mm**
-- Taper knee: corrected to **26 mm above the sensor bottom** (54 mm below the top)
 
 ## Tools
 
