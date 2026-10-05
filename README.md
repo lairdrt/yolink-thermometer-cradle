@@ -19,8 +19,8 @@ The design has been physically prototyped. The exported STL and 3MF files match 
 ### Prototype photos
 
 <p>
-  <img src="photos/IMG_7460.jpeg" alt="Printed cradle holding the sensor, wall-mounted, front view" width="360">
-  <img src="photos/IMG_7461.jpeg" alt="Printed cradle holding the sensor, wall-mounted, angled view showing a side window" width="360">
+  <img src="photos/IMG_7479.jpg" alt="Printed cradle holding the sensor, wall-mounted, front view" width="360">
+  <img src="photos/IMG_7480.jpg" alt="Printed cradle holding the sensor, wall-mounted, angled view showing a side window" width="360">
 </p>
 
 ## Design and features
