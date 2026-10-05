@@ -101,8 +101,10 @@ hardware_clearance = 2.0;        // hardware front face to sensor rear plane
 
 washer_recess_depth = hardware_allowance + hardware_clearance;   // 5.0
 
+// The upper screw mirrors the lower one: as far below the top as
+// the lower is above the bottom.  upper_screw_z is derived from
+// this below, once outer_height is known.
 lower_screw_z = 20;
-upper_screw_z = 74;
 
 
 // ============================================================
@@ -268,6 +270,10 @@ rail_width = side_wall + side_clearance + rail_face_overlap;
 
 // Rear-wall material left behind the recessed hardware
 mount_barrier = back_wall - washer_recess_depth;
+
+// Upper screw: same distance from the top as the lower is from the
+// bottom.
+upper_screw_z = outer_height - lower_screw_z;
 
 // Window placement.  Centred on the sensor, not on the cradle.
 window_center_z = bottom_wall + sensor_height / 2;
@@ -787,6 +793,10 @@ echo(str("window front edge runs ", window_front_gap,
          " behind the side profile's front edge at every height;",
          " rear edge straight at y = ", window_rear_y,
          ", web to the rear wall ", window_rear_y - back_wall));
+
+echo(str("screws at z ", lower_screw_z, " (", lower_screw_z,
+         " from bottom) and ", upper_screw_z, " (",
+         outer_height - upper_screw_z, " from top)"));
 
 
 // ============================================================

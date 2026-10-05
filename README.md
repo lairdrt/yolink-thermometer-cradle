@@ -16,9 +16,16 @@ The cradle holds the sensor securely on a wall while keeping it ventilated and i
 
 The design has been physically prototyped. The exported STL and 3MF files match the current source geometry.
 
+### Prototype photos
+
+<p>
+  <img src="photos/IMG_7460.jpeg" alt="Printed cradle holding the sensor, wall-mounted, front view" width="360">
+  <img src="photos/IMG_7461.jpeg" alt="Printed cradle holding the sensor, wall-mounted, angled view showing a side window" width="360">
+</p>
+
 ## Design and features
 
-![Rendered cradle model](photos/cradle1.png)
+![Rendered cradle model](photos/cradle.png)
 
 - Open front, so the sensor's display stays visible
 - Continuous left and right front retaining rails
@@ -52,7 +59,7 @@ The design has been physically prototyped. The exported STL and 3MF files match 
 | Front/profile clearance | 0.6 mm |
 | Exterior edge rounding | 0.75 mm (target) |
 | Drain holes | 4 × Ø3.0 mm |
-| Screw locations | Z = 20 mm and Z = 74 mm, on the centreline |
+| Screw locations | Z = 20 mm and Z = 65 mm, on the centreline (each 20 mm from the nearer end) |
 
 ## Mounting hardware
 
